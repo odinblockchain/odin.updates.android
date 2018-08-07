@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/about"
+            android:title="About" />
+        <item
+            android:id="@+id/news"
+            android:title="News" />
+
+        <item
+            android:id="@+id/whitepaper"
+            android:title="Whitepaper" />
+    </group>
+
+    <item android:title="Links">
+        <menu>
+            <item
+                android:id="@+id/link_website"
+                android:title="Website" />
+            <item
+                android:id="@+id/link_discord"
+                android:title="Discord" />
+
+            <item
+                android:id="@+id/link_twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+    <item android:title="Exchanges">
+        <menu>
+            <item
+                android:id="@+id/exchange_cryptopia"
+                android:title="Cryptopia" />
+            <item
+                android:id="@+id/exchange_"
+                android:title="Cryptobridge" />
+
+            <item
+                android:id="@+id/nav_item_seven"
+                android:title="Stocks.Exchange" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/limited_supply"
+        android:textColor="@color/off_white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:id="@+id/title_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/light_green_text_color"
+        android:text="@string/only_5_million_coins_will_be_generated"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_slide_3"
+        android:textColor="@color/light_green_text_color"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

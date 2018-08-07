@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_verify_seed"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Verify Seed"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/description_verify_seed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="Please enter the seed you have generate in the last screen in the same order."
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_seed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/grey"
+        android:hint="Enter seed here, leave a space between each word."
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/verify_seed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grey_button_background"
+        android:padding="10dp"
+        android:text="Verify Seed and Create Walet"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ignition</string>
+    <string name="welcome_to_ignition">Welcome To Ignition</string>
+    <string name="slide_one_description">The next generation blockchain built for business, is picking up where others left off. We are busy building a platform with a modern approach.</string>
+    <string name="rewards_distribution"><![CDATA[REWARDS & DISTRIBUTION]]></string>
+    <string name="fair_distribution_fair_launch">Fair distribution, Fair launch</string>
+    <string name="limited_supply">LIMITED SUPPLY</string>
+    <string name="only_5_million_coins_will_be_generated">Only 5 million coins will be generated</string>
+    <string name="description_slide_3">Inflation slows every 1 million coins, only 1 million coins will be generated in the first year with the remaining 5 million over the next 50 years.</string>
+    <string name="slide_four_title_two">Hybrid approach to wealth creation</string>
+    <string name="slide_4_description">With a maximum of 5 million coins, Proof of Work, Proof of Stake and Master Nodes there is no better coin to earn rewards while simultaneously securing the network.</string>
+    <string name="about_ignition">Ignition is a 3rd generation blockchain built on a foundation of legends</string>
+    <string name="recover_wallet">Recover Wallet</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="description_generate_seed">Generate your Seed and save it in a safe place, this seed is the only way to recover your wallet if your phone gets lost, stolen etc.</string>
+    <string name="description_click_generate">Click the generate button to get your seed.</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="share">Share Ignition Address</string>
+</resources>
