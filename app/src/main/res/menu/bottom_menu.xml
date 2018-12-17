@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_price"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_money"
+        android:title="@string/price"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_updates"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_feed"
+        android:title="@string/updates"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_explorer"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_explorer"
+        android:title="@string/explorer"
+        app:showAsAction="ifRoom" />
+</menu>

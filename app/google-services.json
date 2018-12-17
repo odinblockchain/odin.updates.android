@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "656869611585",
+    "firebase_url": "https://odinblockchain-527f6.firebaseio.com",
+    "project_id": "odinblockchain-527f6",
+    "storage_bucket": "odinblockchain-527f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656869611585:android:0ff780d6f6ee14c4",
+        "android_client_info": {
+          "package_name": "app.android.blockchain.org.odin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656869611585-9lsig91mi41ha68jm3an33dc6ci0qr01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1k8EjX20z657ymCvaOkwwFVrqkTtT_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

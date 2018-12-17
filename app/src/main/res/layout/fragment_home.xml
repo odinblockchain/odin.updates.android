@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f7f7f7"
     android:orientation="vertical"
     android:weightSum="10">
 
@@ -17,7 +16,7 @@
 
         <ImageView
             android:layout_width="280dp"
-            android:layout_height="120dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:background="@drawable/header"
 
@@ -28,7 +27,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="6.5"
+        android:layout_weight="6"
         android:background="#f7f7f7"
         android:orientation="vertical">
 
@@ -37,10 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
+            android:padding="10dp"
             android:text="ODIN Blockchain is a decentralized, privacy-oriented development framework for mobile and web-based applications"
             android:textSize="16dp" />
 
@@ -49,12 +45,12 @@
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/buttonshape"
             android:gravity="center"
             android:text="Website"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="22sp" />
 
 
         <Button
@@ -62,48 +58,36 @@
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/buttonshape"
             android:gravity="center"
             android:text="Twitter"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="22sp" />
 
         <Button
             android:id="@+id/button_discord"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/buttonshape"
             android:gravity="center"
             android:text="Discord"
             android:textColor="@color/white"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/button_whitepaper"
-            android:layout_width="260dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/buttonshape"
-            android:gravity="center"
-            android:text="Whitepaper"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="22sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5"
-        android:background="#f7f7f7">
+        android:layout_weight="2"
+        android:background="@color/white">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="120dp"
             android:layout_gravity="center"
             android:background="@drawable/footer"
 
@@ -113,4 +97,3 @@
 
 
 </LinearLayout>
-

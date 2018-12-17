@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.android.ignitioncoin.org.ignition">
+    package="app.android.blockchain.org.odin">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
+        android:name=".MyApplication"
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashActivity"
@@ -32,30 +35,15 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".RecoverOrCreateWallet"
+            android:name=".OpenUrlActivity"
             android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".CreateWallet"
-            android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".RecoverWallet"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".VerifySeed"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".SendIgnitionActivity"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".ReceiveIgnitionActivity"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" />
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
 
     </application>

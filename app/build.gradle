@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "app.android.ignitioncoin.org.ignition"
+        applicationId "app.android.blockchain.org.odin"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -39,4 +39,9 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.7'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
 
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+
 }
+
+apply plugin: 'com.google.gms.google-services'

@@ -9,7 +9,7 @@ import android.support.v4.app.Fragment;
 
 import com.github.paolorotolo.appintro.AppIntro;
 
-import app.android.ignitioncoin.org.ignition.MainActivity;
+import app.android.blockchain.org.odin.MainActivity;
 
 /**
  * App Onboarding Screen!
@@ -30,12 +30,10 @@ public class AppOnboarding extends AppIntro {
         SlideOne s1 = new SlideOne();
         SlideTwo s2 = new SlideTwo();
         SlideThree s3 = new SlideThree();
-        SlideFour s4 = new SlideFour();
 
         addSlide(s1);
         addSlide(s2);
         addSlide(s3);
-        addSlide(s4);
 
         // OPTIONAL METHODS
         // Override bar/separator color.
